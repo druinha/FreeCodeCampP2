@@ -1,0 +1,143 @@
+<div class="container">
+  <header> 
+    <h1 id="title">FREE TASTING BEER NIGHT FORM</h1>
+    <p id="description">Sign in and get a free tasting beer experience in your local bar</p>
+  </header>
+  <form id="survey-form">
+    <div class="formDiv">
+      <label type="text" id="name-label" for="name">Name</label>
+      <input id="name-label" name="name" class="formInput" placeholder="Enter your name" required>
+    </div>
+    <div class="formDiv">
+      <label id="email-label" for="email">Email</label>
+      <input type="email" id="email-label" name="email" class="formInput" placeholder="Enter your email" required>
+    </div>
+    <div class="formDiv">
+      <label id="nummber" for="number">Age (You should be at least 18 years old)</label>
+      <input type ="number" id="number" name="age" class="formInput" placeholder="Enter your age" min="18" max="120" required>
+    </div>
+    <div class="formDiv">
+      <p class="selectOption">Which option descrives you?</p>
+      <select id="dropdown" name="role" class="formInput" required>
+        <option disabled selected value>Select current role</option>
+        <option>Student</option>
+        <option>Self-employed</option>
+        <option>Employed</option>
+        <option>Unemployed</option>
+        <option>Retired</option>
+        <option>Other</option>
+      </select>
+    </div>
+    <div class="formDiv">
+      <p class="selectOption">Are you going to get drunk?</p>
+      <label>
+        <input name"user-state" value="no" type="radio" class="input-radio" checked>No, just tasting the beer</label>
+      <label>
+        <input name"user-state" value="maybe" type="radio" class="input-radio">Maybe</label>
+      <label>
+        <input name"user-state" value="little" type="radio" class="input-radio">A little bit</label>
+      <label>
+        <input name"user-state" value="definetly" type="radio" class="input-radio">Definetly</label>
+      <label>
+      <input name"user-state" value="crowling" type="radio" class="input-radio">I will come back home crowling</label>
+    </div>
+        <div class="formDiv">
+      <p class="selectOption">Which one is your favourite type of beer?</p>
+      <select id="dropdown" name="role" class="formInput" required>
+        <option disabled selected value>Select favourite type</option>
+        <option>Ale</option>
+        <option>Lager</option>
+        <option>Porter</option>
+        <option>Stout</option>
+        <option>Wheat</option>
+        <option>Pilsner</option>
+        <option>Sour ale</option>
+        <option>Blonde ale</option>
+        <option>Brown ale</option>
+        <option>Pale ale</option>
+        <option>Indian pale ale</option>
+      </select>
+    </div>
+    <div class="formDiv">
+      <p class="selectOption">Which ones are your favourite brands?</p>
+    </div>
+    <div class="formDiv">
+    <label><input
+          name="beers"
+          value="brands"
+          type="checkbox"
+          class="input-checkbox">Estrella Galicia</label>
+      <label><input
+          name="beers"
+          value="brands"
+          type="checkbox"
+          class="input-checkbox">Corona</label>
+      <label><input
+          name="beers"
+          value="brands"
+          type="checkbox"
+          class="input-checkbox">Peroni</label>
+      <label><input
+          name="beers"
+          value="brands"
+          type="checkbox"
+          class="input-checkbox">Super bock</label>
+      <label><input
+          name="beers"
+          value="brands"
+          type="checkbox"
+          class="input-checkbox">Ale Smith</label>
+      <label><input
+          name="beers"
+          value="brands"
+          type="checkbox"
+          class="input-checkbox">King sue</label>
+      <label><input
+          name="beers"
+          value="brands"
+          type="checkbox"
+          class="input-checkbox">Grimbergen</label>
+      <label><input
+          name="beers"
+          value="brands"
+          type="checkbox"
+          class="input-checkbox">Lagunitas</label>
+      <label><input
+          name="beers"
+          value="brands"
+          type="checkbox"
+          class="input-checkbox">Friedrichshainer Wheat</label>
+      <label><input
+          name="beers"
+          value="brands"
+          type="checkbox"
+          class="input-checkbox">Easy Rider</label>
+      <label><input
+          name="beers"
+          value="brands"
+          type="checkbox"
+          class="input-checkbox">Guinness</label>
+      <label><input
+          name="beers"
+          value="brands"
+          type="checkbox"
+          class="input-checkbox">Asahi</label>
+      <label><input
+          name="beers"
+          value="brands"
+          type="checkbox"
+          class="input-checkbox">Stone & Wood</label><label><input
+          name="beers"
+          value="brands"
+          type="checkbox"
+          class="input-checkbox">White rabbit</label>
+      </div>
+    <div class="formDiv">
+      <p class="selectOption">Comments or suggestions:</p>
+      <textarea id="comments" class="input-text-area" name="comment" rows="15" cols="120" placeholder="Write your comment here..."></textarea>
+    </div>
+    <div class="formDiv">
+      <button type="submit" id="submit" class="submit-button">Submit</button>
+    </div>
+  </form>
+</div>
